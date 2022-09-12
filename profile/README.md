@@ -2,7 +2,7 @@
 
 We are MovieStarPlanet!
 
-[![We Are Hiring](https://raw.githubusercontent.com/moviestarplanet/.github/main/profile/WereHiring_Mailfooter_400.png)](https://corporate.moviestarplanet.com/careers/)
+[![We Are Hiring](https://raw.githubusercontent.com/moviestarplanet/.github/main/profile/WereHiring_Mailfooter_400.png)](https://corporate.moviestarplanet.com/careers/)\
 [corporate.moviestarplanet.com/careers/](https://corporate.moviestarplanet.com/careers/)
 
 <!--
