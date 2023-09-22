@@ -2,9 +2,6 @@
 
 We are MovieStarPlanet!
 
-[![We Are Hiring](https://raw.githubusercontent.com/moviestarplanet/.github/main/profile/WereHiring_Mailfooter_400.png)](https://corporate.moviestarplanet.com/careers/)\
-[corporate.moviestarplanet.com/careers/](https://corporate.moviestarplanet.com/careers/)
-
 <!--
 
 **Here are some ideas to get you started:**
