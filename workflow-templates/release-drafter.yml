@@ -1,0 +1,12 @@
+name: Release Drafter
+
+on:
+  push:
+
+permissions:
+  contents: write
+  pull-requests: read
+
+jobs:
+  release-drafter:
+    uses: moviestarplanet/github-reusable-workflows/.github/workflows/release-drafter.yaml@main
