@@ -1,0 +1,79 @@
+name-template: "v$RESOLVED_VERSION 🎮"
+tag-template: "v$RESOLVED_VERSION"
+change-template: "- $TITLE by @$AUTHOR (#$NUMBER)"
+change-title-escapes: "\\<*_&"
+sort-by: merged_at
+sort-direction: ascending
+
+categories:
+  - type: pre-exclude
+    when:
+      label: skip-changelog
+
+  - title: "💥 Breaking Changes"
+    exclusive: true
+    when:
+      label: breaking-change
+
+  - title: "✨ Features"
+    exclusive: true
+    when:
+      label: feature
+
+  - title: "🐛 Bug Fixes"
+    exclusive: true
+    when:
+      label: bug
+
+  - title: "🔒 Security"
+    exclusive: true
+    when:
+      label: security
+
+  - title: "⚡ Performance"
+    exclusive: true
+    when:
+      label: performance
+
+  - title: "📦 Dependencies"
+    collapse-after: 5
+    exclusive: true
+    when:
+      label: dependencies
+
+  - title: "📚 Documentation"
+    exclusive: true
+    when:
+      label: documentation
+
+  - title: "🧰 Maintenance"
+    exclusive: true
+    when:
+      label: maintenance
+
+  - title: "🧪 Tests"
+    exclusive: true
+    when:
+      label: tests
+
+  - title: "🎲 Other Changes"
+
+  - type: version-resolver
+    semver-increment: major
+    when:
+      label: breaking-change
+
+  - type: version-resolver
+    semver-increment: minor
+    when:
+      label: feature
+
+  - type: version-resolver
+    semver-increment: patch
+
+template: |
+  $CHANGES
+
+  ## 👏 Contributors
+
+  $CONTRIBUTORS
