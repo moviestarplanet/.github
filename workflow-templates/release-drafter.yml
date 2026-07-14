@@ -1,7 +1,7 @@
 name: Release Drafter
 
 on:
-  push:
+  push: [ $default-branch ]
 
 permissions:
   contents: write
